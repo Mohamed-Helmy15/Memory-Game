@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>  
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="overlay">
+      <div>Start Game</div>
+      <div>Clear History</div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <span class="name-container">Hello: <span class="name"></span></span>
+        <div>
+          <span class="num-container">Wrong Tries:
+            <span class="wrong-num">15</span>
+          </span>
+          <br>
+          <span>Correct Tries:
+            <span class="right-num">0</span>
+          </span>
+          <br>
+          <span>Time:
+            <span class="time">60</span>
+          </span>
+        </div>
+      </div>
+      <div class="game-container">
+        <div class="box" data-tec="html">
+          <div class="face front">?</div>
+          <div class="face back"><i class="fa-brands fa-html5"></i></div>
+        </div>
+        <div class="box" data-tec="html">
+          <div class="face front">?</div>
+          <div class="face back"><i class="fa-brands fa-html5"></i></div>
+        </div>
+        <div class="box" data-tec="css">
+          
+          <div class="face front">?</div>
+          <div class="face back"><i class="fa-brands fa-css3-alt"></i></div>
+        </div>
+        <div class="box" data-tec="css">
+          <div class="face front">?</div>
+          <div class="face back"><i class="fa-brands fa-css3-alt"></i></div>
+        </div>
+        <div class="box" data-tec="js">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-js"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="js">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-js"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="react">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-react"></i>
+          </div>
+          </div>
+        <div class="box" data-tec="react">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-react"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="vue">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-vuejs"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="vue">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-vuejs"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="git">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="git">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="gulp">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-gulp"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="gulp">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-gulp"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="angular">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-angular"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="angular">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-angular"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="sass">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-sass"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="sass">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-sass"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="python">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-python"></i>
+          </div>
+        </div>
+        <div class="box" data-tec="python">
+          <div class="face front">?</div>
+          <div class="face back">
+            <i class="fa-brands fa-python"></i>
+          </div>
+        </div>
+        <div class="reset">Reset</div>
+    </div>
+    </div>
+    <div class="leader">
+      <div class="btn show">Show Leadership</div>
+      <div class="leader-player">
+      </div>
+        <div class="btn clear">Clear Leadership</div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.26/dist/sweetalert2.all.min.js"></script>
+    
+  </body>
+</html>
